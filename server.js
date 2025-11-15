@@ -20,7 +20,7 @@ const server = http.createServer(app);
 // Initialize Socket.io
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: 'https://moonlit-salamander.netlify.app/',
     methods: ['GET', 'POST', 'PATCH', 'DELETE']
   }
 });
