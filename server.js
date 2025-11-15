@@ -81,13 +81,13 @@ mongoose.connect(process.env.MONGODB_URI)
 // ============================================
 // Routes
 // ============================================
+const teamRoutes = require('./server/routes/team');
+const projectRoutes = require('./server/routes/project');
 const authRoutes = require('./server/routes/auth');
-const teamRoutes = require('./server/routes/teams');
-const projectRoutes = require('./server/routes/projects');
 const taskRoutes = require('./server/routes/task');
 const uploadRoutes = require('./server/routes/upload');
 const userRoutes = require('./server/routes/users');
-const chatRoutes = require('./server/routes/chat');
+const chatRoutes = require('./server/routes/chat'); // <-- ADDED
 
 app.use('/api/auth', authRoutes);
 app.use('/api/teams', teamRoutes);
