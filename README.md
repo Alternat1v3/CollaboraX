@@ -2,6 +2,8 @@
 
 A full-stack app for small teams: shared workspaces, projects, a drag-and-drop Kanban board and real-time chat.
 
+**[Live demo](https://moonlit-salamander.netlify.app/)** (register an account to try it)
+
 ## Features
 
 - **Accounts:** sign-up and login with bcrypt-hashed passwords and JWT sessions
